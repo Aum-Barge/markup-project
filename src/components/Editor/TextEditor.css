@@ -54,7 +54,7 @@
   border: 2px solid #000;
   padding: 10px;
   border-radius: 10px;
-  width: 100%;
+  width: auto;
   min-Height: 25vh;
   overflow-y: 'auto';
   
