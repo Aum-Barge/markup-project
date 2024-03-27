@@ -12,7 +12,7 @@ const router = createHashRouter([
     element: <Home />,
   },
   {
-    path: '/editor',
+    path: '/markup-project/editor',
     element: <Editor />,
   }
 ]);

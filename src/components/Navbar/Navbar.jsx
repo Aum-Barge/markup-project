@@ -8,7 +8,7 @@ const Navbar = () => {
       <Link to="/">
       <h1>Marker</h1>
       </Link>
-      <Link to='/editor'>Text editor</Link>
+      <Link to='/markup-project/editor'>Text editor</Link>
     </div>
   )
 }
