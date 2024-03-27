@@ -7,7 +7,6 @@ import Home from './Pages/Home.jsx';
 import Editor from './Pages/Editor.jsx';
 
 const router = createHashRouter({
-  basename: '/markup-project', // Set the base URL here
   routes: [
     {
       path: '/',
