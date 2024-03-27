@@ -6,18 +6,16 @@ import './index.css';
 import Home from './Pages/Home.jsx';
 import Editor from './Pages/Editor.jsx';
 
-const router = createHashRouter({
-  routes: [
-    {
-      path: '/',
-      element: <Home />,
-    },
-    {
-      path: '/editor',
-      element: <Editor />,
-    }
-  ]
-});
+const router = createHashRouter([
+  {
+    path: '/',
+    element: <Home />,
+  },
+  {
+    path: '/editor',
+    element: <Editor />,
+  }
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
