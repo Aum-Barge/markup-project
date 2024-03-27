@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto", "sans-serif";
+    border-bottom: 1px solid lightgray;
+}
+
+.container h1 {
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.container a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
