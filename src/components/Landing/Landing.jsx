@@ -1,6 +1,7 @@
 import React from "react";
 import "./Landing.css";
 import Layout from './../../Layout';
+import { Link } from "react-router-dom";
 const Landing = () => {
   return (
     <Layout>
@@ -11,9 +12,9 @@ const Landing = () => {
           Unleash your creativity and efficiency by harnessing the simplicity
           and versatility of Markdown for your writing needs.
         </p>
-        <a href="/editor">
+        <Link to="/editor">
           <button>Start Now!</button>
-        </a>
+        </Link>
       </div>
     </Layout>
   );
